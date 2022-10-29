@@ -1,17 +1,5 @@
 #include "FunctionsFunctions.cpp"
 
-double cube(double n) {
-    return n * n * n;
-}
-
-double second(double d) {
-    return d * d - 5 * d - 4;
-}
-
-double fun(double d) {
-    return d * d - 3 * d - 4;
-}
-
 int main() {
 
     SimpleFunction f1

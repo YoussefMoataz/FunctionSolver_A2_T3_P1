@@ -48,3 +48,9 @@ public:
 
     inline virtual double evaluateAt(double value);
 };
+
+inline double cube(double n);
+
+inline double second(double d);
+
+inline double fun(double d);
