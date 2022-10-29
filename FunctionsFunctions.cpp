@@ -5,12 +5,14 @@
 
 SimpleFunction::SimpleFunction(function<double(double)> fun) {
 
+    // assign the function
     simpleFunction = fun;
 
 }
 
 CompositeFunction::CompositeFunction(function<double(double)> fun1, function<double(double)> fun2) {
 
+    // assign the functions
     compositeFunction1 = fun1;
     compositeFunction2 = fun2;
 
@@ -18,6 +20,7 @@ CompositeFunction::CompositeFunction(function<double(double)> fun1, function<dou
 
 DerivativeFunction::DerivativeFunction(function<double(double)> fun, double h) {
 
+    // assign the function
     derivativeFunction = fun;
 
 }

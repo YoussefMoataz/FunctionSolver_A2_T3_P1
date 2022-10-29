@@ -14,6 +14,7 @@ using namespace std;
 
 class Function {
 public:
+    // to be implemented
     inline virtual double evaluateAt(double value) = 0;
 };
 
@@ -40,6 +41,7 @@ public:
 class DerivativeFunction : public Function {
 private:
     function<double(double)> derivativeFunction;
+    // default value for the limit
     double h = 0.000001;
 public:
     inline DerivativeFunction(function<double(double)> fun, double h);
