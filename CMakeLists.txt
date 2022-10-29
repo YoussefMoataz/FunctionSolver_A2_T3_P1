@@ -3,4 +3,4 @@ project(FunctionSolver_A2_T3_P1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(FunctionSolver_A2_T3_P1 main.cpp)
+add_executable(FunctionSolver_A2_T3_P1 FunctionsApp.cpp FunctionsHeader.h FunctionsFunctions.cpp)
