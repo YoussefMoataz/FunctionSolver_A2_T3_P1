@@ -59,3 +59,5 @@ double second(double d) {
 double fun(double d) {
     return d * d - 3 * d - 4;
 }
+
+// End of the file
